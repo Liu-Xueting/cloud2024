@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.seata:seata-spring-autoconfigure-core:1.7.0-native-rc2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../program/Maven/MavenRepository/io/seata/seata-spring-autoconfigure-core/1.7.0-native-rc2/seata-spring-autoconfigure-core-1.7.0-native-rc2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../program/Maven/MavenRepository/io/seata/seata-spring-autoconfigure-core/1.7.0-native-rc2/seata-spring-autoconfigure-core-1.7.0-native-rc2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../program/Maven/MavenRepository/io/seata/seata-spring-autoconfigure-core/1.7.0-native-rc2/seata-spring-autoconfigure-core-1.7.0-native-rc2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

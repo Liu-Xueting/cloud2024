@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: cloud-payment-service
+    ####Spring Cloud Consul for Service Discovery
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+      config:
+        profile-separator: '-' # default value is ","，we update '-'
+        format: YAML
+#        watch:
+#          wait-time: 1 # consul配置内容及时刷新  默认是 55 秒 建议不改
+
+# config/cloud-payment-service/data
+#       /cloud-payment-service-dev/data
+#       /cloud-payment-service-prod/data
+
+# bootstrap.yml优先级比application.yml高 提前读取consul的配置  因为consul是提前启动的
